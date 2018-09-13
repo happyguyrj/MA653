@@ -1,7 +1,7 @@
 # Syntax
 # barplot(x,xlab,ylab,main, names.arg,col)
 
-# x- vector of data
+# x- matrix of data
 
 # Optional paramters
 # xlab- label for x axis
