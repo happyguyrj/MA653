@@ -20,7 +20,7 @@ png(file = "pie_chart.jpg")
 # Plot the chart
 pie(rain,labels, main="Rainfall in (mm)", clockwise = TRUE, col=c("Blue","red","green","orange"))
 
-# To insert a Legent (Optional)
+# To insert a Legend (Optional)
 legend("topright", c("Mandi", "Shimla", "Kullu", "Solan"), cex = 1, fill = c("Blue","red","green","orange"))
 
 # Save the file

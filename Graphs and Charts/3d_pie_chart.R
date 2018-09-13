@@ -25,10 +25,10 @@ l <- c("Mandi", "Shimla", "Kullu", "Solan")
 png(file = "3d_pie_chart.jpg")
 
 # Plot the chart
-pie3D(rain,labels=l, main="Rainfall in (mm)", explode =0.1, col=rainbow(length(x)))
+pie3D(rain,labels=l, main="Rainfall in (mm)", explode =0.1, col=rainbow(length(rain)))
 
 # To insert a Legend (Optional)
-legend("topright", c("Mandi", "Shimla", "Kullu", "Solan"), cex = 1, fill = rainbow(length(x)))
+legend("topright", c("Mandi", "Shimla", "Kullu", "Solan"), cex = 1, fill = rainbow(length(rain)))
 
 # Save the file
 dev.off()
